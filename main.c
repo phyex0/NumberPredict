@@ -3,11 +3,11 @@
 #include <time.h>
 
 int main(int argc, char *argv[]) {
-
+while(1){
 	srand(time(NULL));
 	int randNum=1+ rand() % 100;
 	printf("welcome to the number predictor\n");
-while(1){
+
 
 	while(1){
 		printf("give me number \n");
