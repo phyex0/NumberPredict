@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main(int argc, char *argv[]) {
+int main() {
 while(1){
 	srand(time(NULL));
 	int randNum=1+ rand() % 100;
